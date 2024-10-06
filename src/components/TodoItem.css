@@ -1,0 +1,37 @@
+.TodoItem{
+width:500px;
+color: #535353;
+margin: 0 auto;
+}
+
+.item{
+    font-weight: bold;
+    padding: 25px;
+    width:470px;
+    color: black;
+    display: flex;
+    font-size: 20px;
+  
+}
+.complete{
+    text-decoration: line-through;
+}
+.item h3{
+    cursor: pointer;
+}
+.item-btn{
+    margin-left: auto ;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    padding: 12px 20px;
+cursor: pointer;
+    background-color:#f7ca18;
+}
+.line{
+
+    border: 1px thick #fff;
+    border-radius: 20px;
+  
+}
